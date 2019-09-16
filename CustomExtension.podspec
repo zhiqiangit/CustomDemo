@@ -4,6 +4,7 @@ Pod::Spec.new do |s|
   s.summary          = '测试扩展内容'
   s.swift_version    = '4.0'
   s.description      = "当前版本主要用来测试，没有什么其他的意义，就只是用来测试的。。。。。"
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.homepage         = 'https://github.com/Hanten/CustomDemo'
   s.author           = { 'Hanten' => 'hantianit@outlook.com' }
   s.source           = { :git => 'https://github.com/Hanten/CustomDemo.git', :tag => s.version.to_s }
